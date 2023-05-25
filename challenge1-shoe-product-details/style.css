@@ -6,6 +6,7 @@
 
 body{
     font-family: sans-serif;
+    line-height: 1.5;
 }
 
 .product{
@@ -40,4 +41,10 @@ body{
     display:inline-block;
 }
 
+a:link{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
 
