@@ -47,4 +47,30 @@ a:link{
 a:hover{
     text-decoration: none;
 }
+/* Forgot the other two a pseudo-classes*/
 
+.square{
+    display:inline-block;
+    margin-right:10px;
+    width:20px;
+    height:20px;
+}
+
+.black{
+    background-color: black;
+}
+.blue{
+    background-color: rgb(29, 86, 160);
+}
+.red{
+    background-color: rgb(218, 25, 25);
+}
+.yellow{
+    background-color: rgb(206, 188, 32);
+}
+.green{
+    background-color: limegreen;
+}
+.brown{
+    background-color: brown;
+}
