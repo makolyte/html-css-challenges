@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.product{
+    width:800px;
+    margin: 50px auto;
+    border: black solid 5px;
+}
