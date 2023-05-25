@@ -1,0 +1,3 @@
+Make the product details look like this: https://codepen.io/jonasschmedtmann/pen/eYgbXrV/1a12771af64312342aa5a5f45bd2347c
+
+For this challenge, use floats.
