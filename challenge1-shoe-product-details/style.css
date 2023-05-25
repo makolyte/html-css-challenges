@@ -10,14 +10,18 @@ body{
 }
 
 .product{
-    width:800px;
+    width:900px;
     margin: 50px auto;
     border: black solid 5px;
+
 }
 
 .component{
     width:250px;
+    float:left;
+    padding-right:20px;
 }
+
 
 .product-title{
     text-transform: uppercase;
@@ -93,4 +97,8 @@ ul li {
     margin-left: 20px;
     list-style: square;
     padding-bottom: 5px;
+}
+
+.clear{
+    clear:both;
 }
