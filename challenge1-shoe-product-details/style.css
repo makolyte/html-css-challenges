@@ -79,3 +79,18 @@ a:hover{
     display:block;
     margin-bottom:20px;
 }
+
+.product-summary{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.product-details-heading{
+    text-transform: uppercase;
+}
+
+ul li {
+    margin-left: 20px;
+    list-style: square;
+    padding-bottom: 5px;
+}
