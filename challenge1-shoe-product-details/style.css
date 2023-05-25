@@ -4,8 +4,19 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 .product{
     width:800px;
     margin: 50px auto;
     border: black solid 5px;
+}
+
+.product-title{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #f7f7f7;
 }
