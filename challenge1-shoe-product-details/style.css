@@ -74,3 +74,8 @@ a:hover{
 .brown{
     background-color: brown;
 }
+
+.more-info-link{
+    display:block;
+    margin-bottom:20px;
+}
