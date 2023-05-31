@@ -101,7 +101,11 @@ a:hover{
 ul li {
     list-style: square;
     margin-left: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 10px
+}
+
+ul list:last-child{
+    padding-bottom:0px;
 }
 
 .cart-button{
