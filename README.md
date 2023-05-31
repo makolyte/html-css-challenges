@@ -1,5 +1,8 @@
 # Challenges for sharpening HTML & CSS fundamentals
 
-1. Shoe product page. Create a layout using floats. 
+Create 'shoe product page' layout using different techniques.
+
+Challenge 1: Use floats
+Challenge 2: Use flexbox
 
 
