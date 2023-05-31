@@ -55,6 +55,10 @@ a:hover{
 }
 /* Forgot the other two a pseudo-classes*/
 
+.color-boxes{
+    display:flex;
+    gap: 10px;
+}
 .square{
     width:20px;
     height:20px;
@@ -108,4 +112,9 @@ ul li {
 .cart-button:hover{
     color:black;
     background-color: white;
+}
+
+.container{
+    display:flex;
+    gap: 20px;
 }
