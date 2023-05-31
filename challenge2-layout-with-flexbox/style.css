@@ -34,6 +34,12 @@ body{
     background-color: #f7f7f7;
 }
 
+.product-price-shipping{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .product-price{
     font-size: 1.5em;
     font-weight: bold;
@@ -85,15 +91,18 @@ a:hover{
 
 .more-info-link{
     display:block;
+    padding-bottom: 20px;
 }
 
 .product-details-heading{
     text-transform: uppercase;
+    padding-bottom: 15px;
 }
 
 ul li {
     list-style: square;
-    padding-bottom: 5px;
+    margin-left: 25px;
+    padding-bottom: 20px;
 }
 
 .cart-button{
@@ -116,5 +125,13 @@ ul li {
 
 .container{
     display:flex;
-    gap: 20px;
+    gap: 25px;
+}
+.component{
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+.product-summary{
+    padding-bottom: 20px;
 }

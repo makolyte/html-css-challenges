@@ -1,3 +1,5 @@
 Make the product details look like this: https://codepen.io/jonasschmedtmann/pen/eYgbXrV/1a12771af64312342aa5a5f45bd2347c
 
 Use flexbox instead of floats, inline-block, and fixed widths
+
+Notes: I'm not sure why the components aren't going to the same width. The flexbox doesn't seem to be shrinking / growing as expected?
