@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.product{
+    width:825px;
+    margin: 50px auto;
+    border: black solid 5px;
+    position:relative;
+    display:grid;
+    grid-template-columns: 250px 1fr 1fr;
+    column-gap: 50px;
+}
+
+.sale{
+    position:absolute;
+    top: -15px;
+    left:-25px;
+    text-transform: uppercase;
+    color:white;
+    background-color: rgb(209, 32, 32);
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+}
+
+.product-title{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #f7f7f7;
+    grid-column: 1 / -1;
+}
+
+.product-price-shipping{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-price{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.product-shipping{
+    font-size: .75em;
+    text-transform: uppercase;
+    color: #777;
+    font-weight: bold;
+}
+
+a:link{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+/* Forgot the other two a pseudo-classes*/
+
+.color-boxes{
+    display:flex;
+    gap: 10px;
+}
+.square{
+    width:20px;
+    height:20px;
+}
+
+.black{
+    background-color: black;
+}
+.blue{
+    background-color: rgb(29, 86, 160);
+}
+.red{
+    background-color: rgb(218, 25, 25);
+}
+.yellow{
+    background-color: rgb(206, 188, 32);
+}
+.green{
+    background-color: limegreen;
+}
+.brown{
+    background-color: brown;
+}
+
+.more-info-link{
+    display:block;
+    padding-bottom: 20px;
+}
+
+.product-details-heading{
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+ul li {
+    list-style: square;
+    margin-left: 25px;
+    padding-bottom: 10px
+}
+
+ul list:last-child{
+    padding-bottom:0px;
+}
+
+.cart-button{
+    background-color: black;
+    color:white;
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: black solid 5px;
+    cursor: pointer;
+    grid-column: 1 / -1;
+}
+
+.cart-button:hover{
+    color:black;
+    background-color: white;
+}
+
+
+.product-summary{
+    padding-bottom: 20px;
+}
