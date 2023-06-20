@@ -2,19 +2,78 @@
 <html>
     <head>
         <style>
+            /* global reset */
+            * {
+                margin: 0;
+                padding:0;
+                box-sizing: border-box;
+            }
+
+            /*
+                main color: #087f5b
+                contrast: #fff
+            */
+
+
+            .container {
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                margin-top: 100px;
+                font-family: sans-serif;
+            }
+            .button{
+                width: 36px;
+                border-radius: 50%;
+                border: none;
+                cursor: pointer;
+                background-color: #087f5b;
+                
+            }
+            .button:hover{
+                background-color: rgb(8, 127, 91, 0.8);
+            }
+            .button svg{
+                stroke: #fff;
+            }
+
+            a {
+                text-decoration: none;
+                color: #087f5b;
+                font-weight: 600;
+            }
+
+            a:hover, a:active, .selected{
+                background-color: #087f5b;
+                border-radius: 50%;
+                padding: 5px;
+                color: #fff;
+            }
 
         </style>
     </head>
     <body>
-        <button>left arrow</button>
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">4</a>
-        <a href="#">5</a>
-        <a href="#">6</a>
-        <a href="#">...</a>
-        <a href="#">23</a>
-        <button>right arrow</button>
+        <div class="container">
+            <button class="button left">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+              </svg>
+            </button>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a class="selected" href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">...</a>
+            <a href="#">23</a>
+            <button class="button right">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+              </button>
+        </div>
     </body>
 </html>
